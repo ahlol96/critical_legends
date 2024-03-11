@@ -57,7 +57,6 @@ local function JPYWG_fake_script()
 	end)
 end
 coroutine.wrap(JPYWG_fake_script)()
-
 while toggle == true do wait()
 	for i, v in pairs(game:GetService("Workspace").MaterialGivers:GetDescendants()) do wait()
 		if v.Name == "TouchInterest" and v.Parent then wait()
